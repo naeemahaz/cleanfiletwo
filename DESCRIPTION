@@ -1,0 +1,12 @@
+Package: cleanme
+Type: Package
+Title: cleanme
+Version: 0.1.2
+Author: Naeemah Aliya Small
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT
+Encoding: UTF8
+LazyData: true
+RoxygenNote: 6.0.1
