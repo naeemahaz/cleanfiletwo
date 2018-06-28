@@ -1,0 +1,24 @@
+> packageDescription("cleanme")
+Package: cleanme
+Title: cleanme
+Version: 0.1.2
+Authors: Naeemah Aliya Small <naeemahaz@gmail.com>
+Description: Save Original File, Cleans file, Saves Clean
+      File, Explore Dataset, separate the types in
+      dataframes. Save the all work in a RDATA file.
+Depends: R (>= 1.0.1)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2 (>= 1.0.1), coda (>= 0.19-1), data.table
+      (>= 1.0.1), DBI (>= 1.0.0), decision (>= 0.1.0),
+      Formula (>= 1.0.1), gplots (>= 1.0.1), highr (>=
+      0.6), Hmisc (>= 1.0.1), matrixStats (>= 0.53.1),
+      mclust (>= 1.0.1), ModelMetrics (>= 1.0.1),
+      modeltools (>= 0.2-21), plotrix (>= 1.0.1), plotROC
+      (>= 1.0.1), plyr (>= 1.0.1), csv (>= 0.5.2),
+      rpart.plot (>= 1.0.1)
+RoxygenNote: 6.0.1
+Built: R 3.4.4; ; 2018-06-06 05:36:54 UTC; windows
+
+-- File: C:/Users/Naeemah/Documents/R/win-library/3.4/cleanme/Meta/package.rds 
