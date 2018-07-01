@@ -48,6 +48,13 @@ cleanme <- function(dataname){
                                                                                                     
                            numberdec <- describe(logicmefactor)
                            print(numberdec)
+  
+                           mainlogicmefactorsdec <- describe(mainlogicmefactors)
+                           print(mainlogicmefactorsdec)
+                                                                                                    
+                           mainlogicmefactorssum <- describe(mainlogicmefactors)
+                           print(mainlogicmefactorssum)
+                                                                                                    
                                                                                                     
                            #savemenow <- saveRDS("cleanmework.rds")
                            #readnow <- readRDS(savemenow)
