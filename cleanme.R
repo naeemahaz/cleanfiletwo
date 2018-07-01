@@ -36,33 +36,33 @@ cleanme <- function(dataname){
                                                                                                     
                                                                                                     
                            #ANALYTICS OF THE FACTOR DATAFRAME
-                                                                                                    factorsum <- summary(logicmefactor)
-                                                                                                    print(factorsum)
+                           factorsum <- summary(logicmefactor)
+                           print(factorsum)
                                                                                                     
-                                                                                                    factordec <- describe(logicmefactor)
-                                                                                                    print(factordec)
+                           factordec <- describe(logicmefactor)
+                           print(factordec)
                                                                                                     
-                                                                                                    #ANALYTICS OF THE NUMBER DATAFRAME
-                                                                                                    numbersum <- summary(logicmenum)
-                                                                                                    print(numbersum)
+                           #ANALYTICS OF THE NUMBER DATAFRAME
+                           numbersum <- summary(logicmenum)
+                           print(numbersum)
                                                                                                     
-                                                                                                    numberdec <- describe(logicmefactor)
-                                                                                                    print(numberdec)
+                           numberdec <- describe(logicmefactor)
+                           print(numberdec)
                                                                                                     
-                                                                                                    #savemenow <- saveRDS("cleanmework.rds")
-                                                                                                    #readnow <- readRDS(savemenow)
+                           #savemenow <- saveRDS("cleanmework.rds")
+                           #readnow <- readRDS(savemenow)
                                                                                                     
-                                                                                                    #HISTOGRAM PLOTS OF ALL TYPES
-                                                                                                    hist(cleanfiledata)
-                                                                                                    hist(logicmeint)
-                                                                                                    hist(logicmedouble)
-                                                                                                    hist(logicmefactor)
-                                                                                                    hist(logicmenum)
-                                                                                                    plot(mainlogicmefactors)
+                           #HISTOGRAM PLOTS OF ALL TYPES
+                           hist(cleanfiledata)
+                           hist(logicmeint)
+                           hist(logicmedouble)
+                           hist(logicmefactor)
+                           hist(logicmenum)
+                           plot(mainlogicmefactors)
                                                                                                     
                                                                                                     
-                                                                                                    save(cleanfiledata, logicmeint, logicmedouble, logicmefactor, logicmenum, numberdec, numbersum, factordec, factorsum, cleandec, oldfile, cleandata, cleanfile, cleanfileread,   file = "cleanmework.RData")
-                                                                                                    load("cleanmework.RData")
+                           save(cleanfiledata, logicmeint, logicmedouble, logicmefactor, logicmenum, numberdec, numbersum, factordec, factorsum, cleandec, oldfile, cleandata, cleanfile, cleanfileread,   file = "cleanmework.RData")
+                           load("cleanmework.RData")
                                                                                                     
                                                                                                     
                                                                                                     
