@@ -29,11 +29,11 @@ cleanme <- function(dataname){
   
   
                            #FASTDATA
-                           describeFast(cleanfiledata)
-                           describeFast(logicmeint)
-                           describeFast(logicmedouble)
-                           describeFast(logicmefactor)
-                           describeFast(logicmenum)
+                           #describeFast(cleanfiledata)
+                           #describeFast(logicmeint)
+                           #describeFast(logicmedouble)
+                           #describeFast(logicmefactor)
+                           #describeFast(logicmenum)
                            describeFast(mainlogicmefactors)
                                                                                                     
                            #ANALYTICS OF THE MAIN DATAFRAME
