@@ -65,7 +65,7 @@ cleanme <- function(dataname){
                            hist(logicmedouble)
                            hist(logicmefactor)
                            hist(logicmenum)
-                           plot(mainlogicmefactors)
+                           #plot(mainlogicmefactors)
                                                                                                     
                                                                                                     
                            save(cleanfiledata, logicmeint, logicmedouble, logicmefactor, logicmenum, numberdec, numbersum, factordec, factorsum, cleandec, oldfile, cleandata, cleanfile, cleanfileread,   file = "cleanmework.RData")
