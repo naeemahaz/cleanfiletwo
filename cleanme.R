@@ -68,7 +68,7 @@ cleanme <- function(dataname){
                            #plot(mainlogicmefactors)
                                                                                                     
                                                                                                     
-                           save(cleanfiledata, logicmeint, logicmedouble, logicmefactor, logicmenum, numberdec, numbersum, factordec, factorsum, cleandec, oldfile, cleandata, cleanfile, cleanfileread,   file = "cleanmework.RData")
+                           save(cleanfiledata, logicmeint, mainlogicmefactors, logicmedouble, logicmefactor, logicmenum, numberdec, numbersum, factordec, factorsum, cleandec, oldfile, cleandata, cleanfile, cleanfileread,   file = "cleanmework.RData")
                            load("cleanmework.RData")
                                                                                                     
                                                                                                     
