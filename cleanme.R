@@ -1,4 +1,4 @@
-function(dataname){
+cleanme <- function(dataname){
 
                     #SAVE THE ORIGINAL FILE
                     oldfile <- write.csv(dataname, file = "oldfile.csv", row.names = FALSE, na = "")
