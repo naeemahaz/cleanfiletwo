@@ -26,6 +26,15 @@ cleanme <- function(dataname){
                            View(logicmefactor)
                            View(logicmenum)
                            View(mainlogicmefactors)
+  
+  
+                           #FASTDATA
+                           describeFast(cleanfiledata)
+                           describeFast(logicmeint)
+                           describeFast(logicmedouble)
+                           describeFast(logicmefactor)
+                           describeFast(logicmenum)
+                           describeFast(mainlogicmefactors)
                                                                                                     
                            #ANALYTICS OF THE MAIN DATAFRAME
                            cleansum <- summary(cleanfiledata)
