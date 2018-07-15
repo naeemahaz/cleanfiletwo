@@ -84,5 +84,5 @@ cleanme <- function(dataname){
                                                                                                     
                                                                                                     
 }
-load("cleanmework.RData")
+ TYPE: load("cleanmework.RData")
 
