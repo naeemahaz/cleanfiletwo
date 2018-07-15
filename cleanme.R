@@ -14,7 +14,7 @@ cleanme <- function(dataname){
                            logicmedouble <- as.double(cleanfiledata[,sapply(cleanfiledata,is.double)])
                            logicmefactor <- as.factor(cleanfiledata[,sapply(cleanfiledata,is.factor)])
                            logicmenum <- as.numeric(cleanfiledata[,sapply(cleanfiledata,is.numeric)])
-                           mainlogicmefactors <- (cleanfiledata[,sapply(cleanfiledata,is.factor) | sapply(cleanfiledata,is.numeric)]
+                           mainlogicmefactors <- cleanfiledata[,sapply(cleanfiledata,is.factor) | sapply(cleanfiledata,is.numeric)]
                                                                                                     
                                                                                                     
                                                                                                     
