@@ -34,7 +34,7 @@ cleanme <- function(dataname){
                            #describeFast(logicmedouble)
                            #describeFast(logicmefactor)
                            #describeFast(logicmenum)
-                           describeFast(mainlogicmefactors)
+                           #describeFast(mainlogicmefactors)
                                                                                                     
                            #ANALYTICS OF THE MAIN DATAFRAME
                            cleansum <- summary(cleanfiledata)
