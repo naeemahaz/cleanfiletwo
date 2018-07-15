@@ -10,11 +10,11 @@ cleanme <- function(dataname){
                            cleanfiledata <- as.data.frame(cleanfileread)
                                                                                                     
                            #SUBSETTING THE DATA TO TYPES
-                           logicmeint <- cleanfiledata[,sapply(cleanfiledata,is.integer)]
-                           logicmedouble <- cleanfiledata[,sapply(cleanfiledata,is.double)]
-                           logicmefactor <- cleanfiledata[,sapply(cleanfiledata,is.factor)]
-                           logicmenum <- cleanfiledata[,sapply(cleanfiledata,is.numeric)]
-                           mainlogicmefactors <- cleanfiledata[,sapply(cleanfiledata,is.factor) | sapply(cleanfiledata,is.numeric)]
+                           logicmeint <- as.integer(cleanfiledata[,sapply(cleanfiledata,is.integer)])
+                           logicmedouble <- as.double(cleanfiledata[,sapply(cleanfiledata,is.double)])
+                           logicmefactor <- as.factor(cleanfiledata[,sapply(cleanfiledata,is.factor)])
+                           logicmenum <- as.numeric(cleanfiledata[,sapply(cleanfiledata,is.numeric)])
+                           mainlogicmefactors <- (cleanfiledata[,sapply(cleanfiledata,is.factor) | sapply(cleanfiledata,is.numeric)]
                                                                                                     
                                                                                                     
                                                                                                     
